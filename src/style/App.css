@@ -1,0 +1,77 @@
+h1 {
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: red;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+.listElem {
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
+  padding: 0;
+}
+
+.listElem img {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.card {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 0;
+  padding-bottom: 15px;
+
+}
+
+.name {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.active:hover {
+  cursor: pointer;
+}
+
+.inactive:hover {
+  cursor: not-allowed;
+}
+
+.description {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  border: black solid 2px;
+}
+
+.titles {
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+  width: 100%;
+  max-width: 100%;
+}
+
+input {
+  border: black 1px solid;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+button {
+  background-color: gray;
+  color: white;
+}
