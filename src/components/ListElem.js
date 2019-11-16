@@ -4,7 +4,7 @@ import '../style/App.css';
 function ListElem(props) {
   const [displayDescription, setDisplayDescription] = useState(false);
   const toggleDescription = () => {
-    if ((props.comics || props.description) && !displayDescription)
+    if ((props.comics.length || props.description) && !displayDescription)
       setDisplayDescription(true);
     if (displayDescription)
       setDisplayDescription(false);
